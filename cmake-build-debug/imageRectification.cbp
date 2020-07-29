@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="imageRectification"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\opencv\;CMake Files\..\opencv\build_cuda10.0\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\eigen3\;CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/auv/software/multipleViewRectification/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/auv/software/multipleViewRectification/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/auv/software/multipleViewRectification/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imageRectification">
+				<Option output="/home/auv/software/multipleViewRectification/cmake-build-debug/imageRectification" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/auv/software/multipleViewRectification/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/auv/software/opencv/build_cuda10.0"/>
+					<Add directory="/home/auv/software/opencv/include"/>
+					<Add directory="/home/auv/software/opencv/include/opencv"/>
+					<Add directory="/home/auv/software/opencv/modules/cudev/include"/>
+					<Add directory="/home/auv/software/opencv/modules/core/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudaarithm/include"/>
+					<Add directory="/home/auv/software/opencv/modules/flann/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/hdf/include"/>
+					<Add directory="/home/auv/software/opencv/modules/imgproc/include"/>
+					<Add directory="/home/auv/software/opencv/modules/ml/include"/>
+					<Add directory="/home/auv/software/opencv/modules/objdetect/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/phase_unwrapping/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/plot/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/reg/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/surface_matching/include"/>
+					<Add directory="/home/auv/software/opencv/modules/video/include"/>
+					<Add directory="/home/auv/software/opencv/modules/viz/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/xphoto/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/bgsegm/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudabgsegm/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudafilters/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudaimgproc/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudawarping/include"/>
+					<Add directory="/home/auv/software/opencv/modules/dnn/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/face/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/freetype/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/fuzzy/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/img_hash/include"/>
+					<Add directory="/home/auv/software/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/auv/software/opencv/modules/photo/include"/>
+					<Add directory="/home/auv/software/opencv/modules/shape/include"/>
+					<Add directory="/home/auv/software/opencv/modules/videoio/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/xobjdetect/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudacodec/include"/>
+					<Add directory="/home/auv/software/opencv/modules/highgui/include"/>
+					<Add directory="/home/auv/software/opencv/modules/ts/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/bioinspired/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/dpm/include"/>
+					<Add directory="/home/auv/software/opencv/modules/features2d/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/line_descriptor/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/saliency/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/text/include"/>
+					<Add directory="/home/auv/software/opencv/modules/calib3d/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/ccalib/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudafeatures2d/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudalegacy/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudaobjdetect/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudaoptflow/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudastereo/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/cvv/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/datasets/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/rgbd/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/stereo/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/structured_light/include"/>
+					<Add directory="/home/auv/software/opencv/modules/superres/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/tracking/include"/>
+					<Add directory="/home/auv/software/opencv/modules/videostab/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/xfeatures2d/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/ximgproc/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/aruco/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/optflow/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/sfm/include"/>
+					<Add directory="/home/auv/software/opencv/modules/stitching/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 imageRectification"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imageRectification/fast">
+				<Option output="/home/auv/software/multipleViewRectification/cmake-build-debug/imageRectification" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/auv/software/multipleViewRectification/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/auv/software/opencv/build_cuda10.0"/>
+					<Add directory="/home/auv/software/opencv/include"/>
+					<Add directory="/home/auv/software/opencv/include/opencv"/>
+					<Add directory="/home/auv/software/opencv/modules/cudev/include"/>
+					<Add directory="/home/auv/software/opencv/modules/core/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudaarithm/include"/>
+					<Add directory="/home/auv/software/opencv/modules/flann/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/hdf/include"/>
+					<Add directory="/home/auv/software/opencv/modules/imgproc/include"/>
+					<Add directory="/home/auv/software/opencv/modules/ml/include"/>
+					<Add directory="/home/auv/software/opencv/modules/objdetect/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/phase_unwrapping/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/plot/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/reg/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/surface_matching/include"/>
+					<Add directory="/home/auv/software/opencv/modules/video/include"/>
+					<Add directory="/home/auv/software/opencv/modules/viz/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/xphoto/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/bgsegm/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudabgsegm/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudafilters/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudaimgproc/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudawarping/include"/>
+					<Add directory="/home/auv/software/opencv/modules/dnn/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/face/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/freetype/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/fuzzy/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/img_hash/include"/>
+					<Add directory="/home/auv/software/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/auv/software/opencv/modules/photo/include"/>
+					<Add directory="/home/auv/software/opencv/modules/shape/include"/>
+					<Add directory="/home/auv/software/opencv/modules/videoio/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/xobjdetect/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudacodec/include"/>
+					<Add directory="/home/auv/software/opencv/modules/highgui/include"/>
+					<Add directory="/home/auv/software/opencv/modules/ts/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/bioinspired/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/dpm/include"/>
+					<Add directory="/home/auv/software/opencv/modules/features2d/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/line_descriptor/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/saliency/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/text/include"/>
+					<Add directory="/home/auv/software/opencv/modules/calib3d/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/ccalib/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudafeatures2d/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudalegacy/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudaobjdetect/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudaoptflow/include"/>
+					<Add directory="/home/auv/software/opencv/modules/cudastereo/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/cvv/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/datasets/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/rgbd/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/stereo/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/structured_light/include"/>
+					<Add directory="/home/auv/software/opencv/modules/superres/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/tracking/include"/>
+					<Add directory="/home/auv/software/opencv/modules/videostab/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/xfeatures2d/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/ximgproc/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/aruco/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/optflow/include"/>
+					<Add directory="/home/auv/software/opencv_contrib/modules/sfm/include"/>
+					<Add directory="/home/auv/software/opencv/modules/stitching/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 imageRectification/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/auv/software/multipleViewRectification/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/auv/software/multipleViewRectification/src/LevenbergMarquardt.cpp">
+			<Option target="imageRectification"/>
+		</Unit>
+		<Unit filename="/home/auv/software/multipleViewRectification/src/LevenbergMarquardt.hpp">
+			<Option target="imageRectification"/>
+		</Unit>
+		<Unit filename="/home/auv/software/multipleViewRectification/src/MultiRectification.cpp">
+			<Option target="imageRectification"/>
+		</Unit>
+		<Unit filename="/home/auv/software/multipleViewRectification/src/MultiRectification.hpp">
+			<Option target="imageRectification"/>
+		</Unit>
+		<Unit filename="/home/auv/software/multipleViewRectification/src/PointCorrespondanceLoader.cpp">
+			<Option target="imageRectification"/>
+		</Unit>
+		<Unit filename="/home/auv/software/multipleViewRectification/src/PointCorrespondanceLoader.hpp">
+			<Option target="imageRectification"/>
+		</Unit>
+		<Unit filename="/home/auv/software/multipleViewRectification/src/main.cpp">
+			<Option target="imageRectification"/>
+		</Unit>
+		<Unit filename="/home/auv/software/multipleViewRectification/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/auv/software/multipleViewRectification/../opencv/build_cuda10.0/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\build_cuda10.0\"/>
+		</Unit>
+		<Unit filename="/home/auv/software/multipleViewRectification/../opencv/build_cuda10.0/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\build_cuda10.0\"/>
+		</Unit>
+		<Unit filename="/home/auv/software/multipleViewRectification/../opencv/build_cuda10.0/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\build_cuda10.0\"/>
+		</Unit>
+		<Unit filename="/home/auv/software/multipleViewRectification/../../../../usr/local/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/auv/software/multipleViewRectification/../../../../usr/local/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/auv/software/multipleViewRectification/../../../../usr/local/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
