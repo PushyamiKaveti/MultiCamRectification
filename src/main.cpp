@@ -45,7 +45,7 @@ int main(int argc, char ** argv)
     std::vector<cv::Mat> K_mats, dist_coeffs;
     std::cout<<FLAGS_calib_file<<std::endl;
     std::cout<<FLAGS_corrs<<std::endl;
-    read_calib_data(FLAGS_calib_file, K_mats, dist_coeffs);
+    //read_calib_data(FLAGS_calib_file, K_mats, dist_coeffs);
     if (FLAGS_corrs){
         int ij =0;
         for(const auto & im : images){
